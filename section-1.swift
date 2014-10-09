@@ -7,7 +7,7 @@ func getFibonacchi(mArg: Int) -> (mArg: Int, mResultNum: Int){
     var mFirstNum = 0;
     var mSecondNum = 1;
   
-    for i in 2..<mArg { //если по новому, то 2...mArg
+    for i in 2..<mArg { //если по-старому, то 2...mArg
         mResultNum = mFirstNum + mSecondNum
         mFirstNum = mSecondNum
         mSecondNum = mResultNum
